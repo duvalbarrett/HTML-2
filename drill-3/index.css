@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    padding: 25px;
+}
+
+.graybox{
+    box-sizing: border-box;
+    color:gray;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#small-bluebox{
+    box-sizing: border-box;
+    color:blue;
+    width:50%;
+}
+
+.whitebox{
+    color:white;
+    display: flex;
+    height:300px;
+    width:300px;
+    
+
+}
+
+#text{
+    color:black;
+}
+
+#bluebox{
+    display: flex;
+    align-items: flex-end;
+}
+
+#greenbox{
+    display: flex;
+    align-items: flex-end;
+}

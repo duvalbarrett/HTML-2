@@ -1,0 +1,51 @@
+body > div {
+    background-color: white;
+    height:600px;
+}
+
+
+.child{
+   height:100px;
+   width:100px;
+   display: flex;
+
+}
+
+div > #box1{
+    background-color: gray;
+    height:150px;
+    width: 100%;
+    
+}
+
+
+div > #box2{
+    background-color: darkgray;
+    flex-direction: column;
+    position: fixed;
+    height:74%;
+    bottom:26px;
+
+}
+
+div > #box3{
+    background-color: darkgray;
+    flex-direction: column;
+    position:fixed;
+    height:74%;
+    right:8px;
+    bottom:26px;
+}
+
+div > #box4{
+    background-color: black;
+    position: fixed;
+    height: 80px;
+    width: 79%;
+    bottom: 25px;
+    left: 110px;
+}
+
+footer{
+
+}
